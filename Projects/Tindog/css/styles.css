@@ -1,0 +1,50 @@
+#features {
+    margin: 100px 150px 100px 150px;
+}
+
+#title {
+    background-color: #ff4368;
+}
+
+.btn {
+    margin: 10px 20px 0 0;
+}
+
+.container-fliud {
+    padding: 3% 12%;
+}
+
+.navbar{
+
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5 rem;
+    font-weight: bold;
+}
+
+.row {
+    text-align: center;
+}
+
+body {
+    font-family: "Montserrat";
+    
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    margin: 50px auto 20px auto;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 15px;
+}
