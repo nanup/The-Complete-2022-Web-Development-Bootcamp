@@ -1,5 +1,12 @@
+#title {
+    background-color: #ff4368;
+}
+
 #features {
-    margin: 100px 150px 100px 150px;
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index:
 }
 
 #press {
@@ -8,8 +15,9 @@
     padding: 20px 0 20px 0;
 }
 
-#title {
-    background-color: #ff4368;
+.phone {
+    position: absoltue;
+    height: 625px; transform: rotate(25deg); margin-top: 20px;
 }
 
 .btnx {
@@ -45,6 +53,7 @@
 
 .row {
     text-align: center;
+    margin: 0;
 }
 
 #testimonials {
@@ -54,7 +63,7 @@
 
 body {
     font-family: "Montserrat";
-    
+    margin-left: 0;
 }
 
 h1 {
@@ -81,6 +90,7 @@ h3 {
 }
 
 p {
+    text-align: center;
     font-size: 15px;
 }
 
@@ -89,5 +99,24 @@ p {
 }
 
 .pricing-column {
-    padding: 3% 2%;
+    padding: 5px 5px;
+}
+
+@media (max-width: 1000px) {
+    .phone {
+        position: static;
+        transform:rotate(0);
+    }
+}
+
+#CTA {
+    background-color: #f5603b;
+    text-align: center;
+    padding: 40px 40px 50px;
+    color: white;
+}
+
+#footer {
+    background-color: #f5603b;
+    padding: 20px 40px 50px;
 }
