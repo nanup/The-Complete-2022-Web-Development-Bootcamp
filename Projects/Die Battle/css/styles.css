@@ -1,6 +1,7 @@
 body {
   animation-timing-function: linear;
   background-color: #00ffab;
+  margin: 0 0;
   text-align: center;
 }
 
@@ -16,7 +17,7 @@ h1, h2 {
 /* Top Container */
 h1 {
   font-size: 8rem;
-  margin: 3% 0;
+  margin:0 0 3%;
 }
 
 /* Middle Container */
@@ -36,6 +37,9 @@ h3 {
 }
 
 /* Bottom Container */
+h2 {
+  margin-bottom: 0;
+}
 
 /* @media Queries */
 @media (max-width: 1500px) and (orientation: portrait) {
