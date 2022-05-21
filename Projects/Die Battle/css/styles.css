@@ -1,0 +1,105 @@
+* {
+  border: solid 1px red;
+}
+
+body {
+  animation-timing-function: linear;
+  background-color: #00ffab;
+  margin: 0 15%;
+  text-align: center;
+}
+
+div {
+  margin: 0;
+}
+
+h1, h2 {
+  color: #e3fcbf;
+  font-family: "Lobster";
+}
+
+/* Top Container */
+h1 {
+  font-size: 8rem;
+  margin: 3% 0;
+}
+
+/* Middle Container */
+h3 {
+  font-family: "Satisfy";
+  font-size: 2rem;
+}
+
+.col {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.die-image {
+  border-radius: 15%;
+  width: 20rem;
+}
+
+/* Bottom Container */
+
+/* @media Queries */
+@media (max-width: 1500px) and (orientation: portrait) {
+  #bottom-container {
+    bottom: 0;
+    left: 5%;
+    position: fixed;
+    right: 5%;
+  }
+}
+
+@media (max-width: 1020px) {
+  body {
+    margin: 0 5%;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 810px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  .die-image {
+    width: 15rem;
+  }
+}
+
+@media (max-width: 615px) {
+  .die-image {
+    width: 12rem;
+  }
+}
+
+@media (max-width: 515px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+  .row {
+    margin: 50px 0;
+  }
+  .die-image {
+    width: 10rem;
+  }
+}
